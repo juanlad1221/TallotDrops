@@ -265,7 +265,7 @@ input.input100 {
    SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 ==================================================================*/
 
-
+.bt{border: 1px solid blue;}
 /*//////////////////////////////////////////////////////////////////
 [ Size ]*/
 .size1 {
@@ -275,7 +275,7 @@ input.input100 {
 
 .size2 {
   height: 100%;
-  width: 71%;
+  width: 60%;
 }
 
 .size3 {
@@ -320,7 +320,8 @@ input.input100 {
 
 /*//////////////////////////////////////////////////////////////////
 [ Background ]*/
-.bg0 {background-color: #fff;}
+/*.bg0 {background-color: #fff;}*/
+.bg0{background-image: url('/images/fondo.png');}
 .bg1 {background-color: #57b846;}
 .bg3 {background-color: #3b5998;}
 .bg4 {background-color: #1da1f2;}
@@ -356,7 +357,7 @@ input.input100 {
    WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
 ==================================================================*/
 .where1-parent {
-  position: relative;
+  position: absolute;
   z-index: 1;
 }
 
@@ -410,7 +411,7 @@ input.input100 {
   overflow: hidden;
 }
 
-.overlay1::before {
+/*.overlay1::before {
   content: "";
   display: block;
   position: absolute;
@@ -438,7 +439,7 @@ input.input100 {
   -ms-transform: skewX(156deg);
   -o-transform: skewX(156deg);
   transform: skewX(156deg);
-}
+}*/
 
 /*---------------------------------------------*/
 .wrap-pic1 {
